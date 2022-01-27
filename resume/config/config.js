@@ -73,7 +73,7 @@ var config = {
  
      
     portfolio: [
-        ["./images/fistula.jpg", "https://leonard6261.github.io/project/analysis.html", "Project Fistula", "A website that I research by using Tableau to visualize the Fistula disease."],
+        ["./images/fistula.jpg", "https://leonard6261.github.io/project/index2.html", "Project Fistula", "A website that I research by using Tableau to visualize the Fistula disease."],
         ["./images/renter9.png", "https://rentersz.com", "Renter", "The second-hand commodities trading platform I maintained with other three CUHKSZ students on phone."],
         ["./images/sicp.png", "https://github.com/Leonard6261/sicp", "Meta-Circular Evaluator", "The End Assignment of the SICP Program at NUS"]
     ],
