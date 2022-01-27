@@ -86,7 +86,7 @@ var config = {
         ["October 2021-present", "<br>Front-end Developer Intern (Parttime, Paid, 2hrs/week)",
             "<p><strong>Shenzhen Renter Leasing Co., Ltd. (Student Startup at CUHK-Shenzhen)</strong></p>" +
             "<p>Co-develop the front-end of a mini program embedded in WeChat for Renter, support routine maintenance and iteration, maintain SQL database.</p>" +
-            "<p>Use Collarborating with other members to maintain and update the program distantly by using Git. </p>"
+            "<p>Collaborate with other members to maintain and update the program distantly by using Git. </p>"
         ],
 
         ["2020/7/1 — 2021/8/10", "<br>Student Assistant of Official Website Operation (Parttime, Paid, 2hrs/week)",
