@@ -64,7 +64,7 @@ var config = {
         "<li>Familiarize with the use of SQL statements and its optimization in practice.</li>" +
         "     <li>Understand the use of data visualization tools, e.g. Tableau, to analyze large-size datasets.</li>" +
         
-        "     <li>Unerstand the use of Matlab/Geogebra/Latex.</li>" +
+        "     <li>Understand the use of Matlab/Geogebra/Latex.</li>" +
         "     <li>Good collaboration & communication capability with other divisions.</li>" +
         "     <li>Be responsible and proactive</li>" +
         "   </ul>",
