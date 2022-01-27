@@ -40,7 +40,7 @@ var config = {
   
     about: "<p>Hello! My name is Yuxuan Zheng, a student currently studying at The Chinese University of Hong Kong, Shenzhen. My future career expectation is Front End/Data Analysis</p>" +
         "<p>I have related experience in Python/Javascript coding. Moreover, I have a passionate work attitude and can work with groups efficiently to find and solve problems. </p>" +
-        "<p>I am really forward to getting your contact!</p>",
+        "<p>I really look forward to getting your contact!</p>",
 
 
 
