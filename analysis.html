@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Operation Fistula</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style2.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <!-- Bootstrap CSS and Jquery JS -->
+    <link rel="stylesheet" href="css/bootstrap-min.css">
+    
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap-min.js"></script>
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div id="dismiss">
+            <a class="fas fa-arrow-left"></a>
+        </div>
+
+
+            <div class="sidebar-header">
+                <h3>Operation Fistula</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Leonard, CUHKSZ</p>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle hidden-sm-down">Introduction</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="./index2.html">What is Obstetric Fistula?</a>
+                        </li>
+                        <li>
+                            <a href="./index2.html">Why does Fistula Matter?</a>
+                        </li>
+                        <li>
+                            <a href="./index2.html">What We Do on This Site?</a>
+                        </li>
+                        <li>
+                            <a href="./index2.html">Location of Fistula Countries</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Analysis with Tableau</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                                <a class="nav-link" href="#a">Literacy Rate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#b">Alcohol Disorders</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#c">Larbor Force Participation</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="#d">Fertility Rate</a>
+                            </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./resume/index.html">About</a>
+                </li>
+                <li>
+                    <a href="./index3.html">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="#" class="download">Download datasets</a>
+                </li>
+                <li>
+                    <a href="https://operationfistula.org" class="article">Visit Project Fistula Main Site</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Open/Close Sidebar</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                           <li class="nav-item active">
+                                <a class="nav-link" href="#a">Literacy Rate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#b">Alcohol Disorders</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#c">Larbor Force Participation</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="#d">Fertility Rate</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <h2 id="1">Analysis of Data between Fistula and Non-Fistula Countries</h2>
+            <p>In this page we will explore different kinds of data, e.g. female labor force participation rate, secondary school life expectancy of male ect, which will give readers a more thorough understanding behind the phenomenon of this project. </p>
+            <div class="line"></div>
+            <h4 id="a">Comparison of Adult Literacy Rate</h4>
+            <p>Percentage of females age 15 and above who can, with understanding, read and write a short, simple statement on their everyday life. Generally, ‘literacy’ also encompasses ‘numeracy’, the ability to make simple arithmetic calculations. This indicator is calculated by dividing the number of female literates aged 15 years and over by the corresponding age group population and multiplying the result by 100.</p>
+
+            <p> The World Bank EdStats data holds over 4,000 internationally comparable indicators that describe education access, progression, completion, literacy, teachers, population, and expenditures. The indicators cover the education cycle from pre-primary to vocational and tertiary education. The data also holds learning outcome data from international and regional learning assessments (e.g. PISA, TIMSS, PIRLS), equity data from household surveys, and projection/attainment data to 2050.</p>
+
+            <p>The viz graph may be restricted due to device screen sizes. Please pull right or left if necessary. 
+            </p>
+            <div class='tableauPlaceholder' id='viz1634309659293' style='position: relative'><noscript><a href='#'><img alt='仪表板 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project2205&#47;2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Project2205&#47;2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project2205&#47;2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1634309659293');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='375px';vizElement.style.maxWidth='800px';vizElement.style.width='100%';vizElement.style.minHeight='500px';vizElement.style.maxHeight='750px';
+               vizElement.style.height=(divElement.offsetWidth*1)+'px';vizElement.style.height='750px'} 
+            /*else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='375px';vizElement.style.maxWidth='1000px';vizElement.style.width='100%';vizElement.style.minHeight='500px';vizElement.style.maxHeight='1200px';vizElement.style.height=(divElement.offsetWidth*0.7)+'px';} */
+        else { vizElement.style.width='100%';vizElement.style.height='750px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+            <p style="margin-top: -20px">From the viz, we can see that for the fistula countries, the figure for female adult literacy rate is generally lower than that for the non-fistula ones, which indicates the fact that many women are in a lack of proper knowledge of how to protect themselves while getting pregenant. Though recent years witness the mildly increasing trend for women in fistula countries to be more civiled and better educated, there still exists a great gap while comparing with the other non-fistula nations.</p>
+
+            <div class="line"></div>
+
+            <h4 id="b">Comparison of Female Alcohol Use Disorders</h4>
+            <p>Alcohol dependence is defined by the International Classification of Diseases as the presence of three or more indicators of dependence for at least a month within the previous year.This is given as the age-standardized prevalence which assumes a constant age structure allowing for comparison by sex, country and through time.</p>
+
+            <p> The dataset source of the viz below came from Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2017 (GBD 2017) Results. Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2018. From the viz, we can show the difference between fistula and non-fistula countries as to the female alcohol usage</p>
+
+            <p>The viz graph may be restricted due to device screen sizes. Please pull right or left if necessary. 
+            </p>
+            <div class='tableauPlaceholder' id='viz1634311118065' style='position: relative'><noscript><a href='#'><img alt='仪表板 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project2205&#47;3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Project2205&#47;3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project2205&#47;3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1634311118065');                    var vizElement = divElement.getElementsByTagName('object')[0];    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='375px';vizElement.style.maxWidth='800px';vizElement.style.width='100%';vizElement.style.minHeight='500px';vizElement.style.maxHeight='750px';
+               vizElement.style.height=(divElement.offsetWidth*1)+'px';vizElement.style.height='750px'} 
+            /*else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='375px';vizElement.style.maxWidth='1000px';vizElement.style.width='100%';vizElement.style.minHeight='500px';vizElement.style.maxHeight='1200px';vizElement.style.height=(divElement.offsetWidth*0.7)+'px';} */else { vizElement.style.width='100%';vizElement.style.height='750px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+            <p style="margin-top: -20px">While people may expect that the overuse of alcohol can be a problem that contributes to the fistula disease, it is found that female in non-fistula countries generally consume higher amount of alcohol than those in fistula countries. This indicates the fact that alcohol use disorders would not be a key consideration to result in a increasing number of fistula cases.</p>
+
+            <div class="line"></div>
+            <h4 id="c">Comparison of Adult Labor Participation Rate</h4>
+            <p>Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.
+
+            <p>Limitations and exceptions: Data on the labor force are compiled by the ILO from labor force surveys, censuses, and establishment censuses and surveys. For some countries a combination of these sources is used. Labor force surveys are the most comprehensive source for internationally comparable labor force data. They can cover all non-institutionalized civilians, all branches and sectors of the economy, and all categories of workers, including people holding multiple jobs. By contrast, labor force data from population censuses are often based on a limited number of questions on the economic characteristics of individuals, with little scope to probe. The resulting data often differ from labor force survey data and vary considerably by country, depending on the census scope and coverage. Establishment censuses and surveys provide data only on the employed population, not unemployed workers, workers in small establishments, or workers in the informal sector.</p>
+
+            <p>The reference period of a census or survey is another important source of differences: in some countries data refer to people's status on the day of the census or survey or during a specific period before the inquiry date, while in others data are recorded without reference to any period. In countries, where the household is the basic unit of production and all members contribute to output, but some at low intensity or irregularly, the estimated labor force may be much smaller than the numbers actually working.</p>
+
+            <p>Differing definitions of employment age also affect comparability. For most countries the working age is 15 and older, but in some countries children younger than 15 work full- or part-time and are included in the estimates. Similarly, some countries have an upper age limit. As a result, calculations may systematically over- or underestimate actual rates.</p>
+
+            <p>The viz graph may be restricted due to device screen sizes. Please pull right or left if necessary. </p>
+           
+
+          <div class='tableauPlaceholder' id='viz1634312375869' style='position: relative'><noscript><a href='#'><img alt='仪表板 4 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project2205&#47;4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Project2205&#47;4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project2205&#47;4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1634312375869');                    var vizElement = divElement.getElementsByTagName('object')[0]; if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='375px';vizElement.style.maxWidth='800px';vizElement.style.width='100%';vizElement.style.minHeight='500px';vizElement.style.maxHeight='750px';
+               vizElement.style.height=(divElement.offsetWidth*1)+'px';vizElement.style.height='750px'} 
+            /*else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='375px';vizElement.style.maxWidth='1000px';vizElement.style.width='100%';vizElement.style.minHeight='500px';vizElement.style.maxHeight='1200px';vizElement.style.height=(divElement.offsetWidth*0.7)+'px';} */else { vizElement.style.width='100%';vizElement.style.height='750px';}  var scriptElement = document.createElement('script');   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';  vizElement.parentNode.insertBefore(scriptElement, vizElement); </script>
+
+
+            <p style="margin-top: -20px ">From the viz, fistula countries generally hold higher figure as to the female labor force participation rate. Some specific reasons, such as taking multiple jobs, or take a long-duration job under harsh working environment, would detrimentally harm their physical health and can be regarded as factors that leads to the popularity of the fistula disease. From a two decade basis in the viz, the rate is still slowly growing.</p>
+            
+            <div class="line"></div>
+
+            <h4 id="d">Comparison of Fertility Rate</h4>
+            <p>Total fertility rate represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates of the specified year. This indicator is utilized to be the variable of the viz below. The available time starts from 1541.</p>
+
+            <p> The dataset is that of version 12 of Gapminder, the latest version as of 2019. This is the full fertility rate dataset published by Gapminder.</p> 
+
+            <p>Gapminder's sources and methodology if well-documented in its dataset at:  <a style="color:blue" href="https://www.gapminder.org/data/">https://www.gapminder.org/data/</a></p>
+
+            <p>It notes its data sources during three key periods of time:</p>
+
+                <p>— 1800 to 1950 (and in some cases also years after 1950): Gapminder v6 which were compiled and documented by Mattias Lindgren.</p>
+
+                <p>— 1950 to 2014: In most cases we use the latest UN estimates from World Population Prospects 2017 published in the file with Annually interpolated demographic indicators, called WPP2017_INT_F01_ANNUAL_DEMOGRAPHIC_INDICATORS.xlsx , accessed on September 2, 2017.</p>
+
+                <p>— 2015 – 2099: It uses the UN forecast of future fertility rate in all countries, called median fertility variant. </p>
+
+            <p>Version 12 of the dataset extends back to the year 1800. Version 6 of Gapminder's fertility series includes data for a few countries further than 1800. It has included more historic data from Version 6 for Finland, the United Kingdom and Sweden. All data from 1800 onwards is from Version 12; data from pre-1800 is from Version 6.</p>
+
+            <p>There are significant uncertainties in data for many countries pre-1950. To develop full series back to 1800 for all countries, Gapminder combines published estimates within the academic literature and national statistics, with their own guesstimates and extrapolations for countries without published estimates. This series presents the selective Gapminder dataset: it has removed data points which were estimated by Gapminder with high uncertainty and instead only include those from published sources or the United Nations dataset.</p>
+
+            <p>The viz graph may be restricted due to device screen sizes. Please pull right or left if necessary. 
+            </p>
+           
+            <div class='tableauPlaceholder' id='viz1634377768719' style='position: relative'><noscript><a href='#'><img alt='仪表板 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project2204&#47;2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Project2204&#47;2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project2204&#47;2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1634377768719');                    var vizElement = divElement.getElementsByTagName('object')[0];    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='375px';vizElement.style.maxWidth='800px';vizElement.style.width='100%';vizElement.style.minHeight='500px';vizElement.style.maxHeight='750px';
+               vizElement.style.height=(divElement.offsetWidth*1)+'px';vizElement.style.height='750px'} 
+            /*else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='375px';vizElement.style.maxWidth='1000px';vizElement.style.width='100%';vizElement.style.minHeight='500px';vizElement.style.maxHeight='1200px';vizElement.style.height=(divElement.offsetWidth*0.7)+'px';} */ else { vizElement.style.width='100%';vizElement.style.height='750px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <p style="margin-top: -20px ">The viz clearly illustrates the number of children per women in a time period of 1960 to 2017. Though some figure in particular years may not be available, the overall downward trend for both fistula and non-fistula countries is easy to notify. Additionally, women in fistula countries generally give more child births, with the corresponding figure ranging from 7 to 6. The number for the non-fistula countries, however, is from 5 to 2.5. Higher fertily rate means more chances to get fistula issues, since for every pegnancy, women's body condition is getting worse to some extent, and sometimes it is irreversable. </p>
+            <div class="line"></div>
+
+            <ul class="list-unstyled CTAs">
+                
+                <li>
+                    <a href="./resume/index.html" class="article"style='height: 50px;padding-top: 15px;size:10pt;'>Click this button to move to the 'About' part.</a>
+                </li>
+            </ul>
+
+    </div>
+
+
+    <div class="overlay"></div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+       $('#dismiss, .overlay').on('click', function () {
+            // hide sidebar
+            $('#sidebar').removeClass('active');
+            // hide overlay
+             $('.overlay').removeClass('active');
+        });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('.overlay').addClass('active');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
