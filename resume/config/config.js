@@ -85,7 +85,7 @@ var config = {
 
         ["October 2021-present", "<br>Front-end Developer Intern (Parttime, Paid, 2hrs/week)",
             "<p><strong>Shenzhen Renter Leasing Co., Ltd. (Student Startup at CUHK-Shenzhen)</strong></p>" +
-            "<p>Co-develop the front-end of a mini program embedded in WeChat for Renter, support routine maintenance and iteration, maintain SQL database.</p>" +
+            "<p>Co-develop the front-end of a mini program embedded in WeChat for Renter, support routine maintenance and iteration, maintain SQL database, optimize the database schema to decrease the loading time.</p>" +
             "<p>Collaborate with other members to maintain and update the program distantly by using Git. </p>"
         ],
 
