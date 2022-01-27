@@ -8,7 +8,7 @@ var config = {
     address: "No.2001, Longxiang Avenue, Longgang District, Shenzhen,China",
     qq: "yz17u20soton",
     log: "Leonard",
-    excpect_work: "Frond End/Data Analysis",
+    excpect_work: "Front End/Data Analysis",
 
 
     
