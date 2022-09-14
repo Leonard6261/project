@@ -3,9 +3,9 @@ var config = {
     name: "Yuxuan Zheng",
     sex: "Male",
     age: "20",
-    phone: "+86-15851056261",
-    email: "121040083@link.cuhk.edu.cn",
-    address: "No.2001, Longxiang Avenue, Longgang District, Shenzhen,China",
+    phone: "279-386-1708",
+    email: "yxzheng@umich.edu",
+    address: "536 S.Forest Ave, Ann Arbor, MI 48104",
     qq: "yz17u20soton",
     log: "Leonard",
     excpect_work: "Front End/Data Analysis",
@@ -33,12 +33,12 @@ var config = {
     
     welcome: "青青子衿，悠悠我心<br>" +
              "但为君故，沉吟至今<br>" +
-             "Hello! My name is Yuxuan Zheng, a student currently studying at The Chinese University of Hong Kong, Shenzhen.<br>" +
+             "Hello! My name is Yuxuan Zheng, a student currently studying at The University of Michigan.<br>" +
              "Nice to meet you!",
 
 
   
-    about: "<p>Hello! My name is Yuxuan Zheng, a student currently studying at The Chinese University of Hong Kong, Shenzhen. My future career expectation is Front End/Data Analysis</p>" +
+    about: "<p>Hello! My name is Yuxuan Zheng, a student currently studying at The University of Michigan. My future career expectation is Front End/Data Analysis</p>" +
         "<p>I have related experience in Python/Javascript coding. Moreover, I have a passionate work attitude and can work with groups efficiently to find and solve problems. </p>" +
         "<p>I really look forward to getting your contact!</p>",
 
@@ -73,8 +73,8 @@ var config = {
  
      
     portfolio: [
-        ["./images/fistula.jpg", "https://leonard6261.github.io/project/index2.html", "Project Fistula", "A website that I research by using Tableau to visualize the Fistula disease."],
-        ["./images/renter9.png", "https://rentersz.com", "Renter", "The second-hand commodities trading platform I maintained with other three CUHKSZ students on phone."],
+        ["./images/fistula.jpg", "https://leonard6261.github.io/project/index2.html", "Project Fistula", "A website built by my research of visualizing Fistula disease datasets."],
+        ["./images/renter9.png", "https://rentersz.com", "Renter", "The IOS/Android second-hand commodities trading platform I maintained with other students on phone."],
         ["./images/sicp.png", "https://github.com/Leonard6261/sicp", "Meta-Circular Evaluator", "The End Assignment of the SICP Program at NUS"]
     ],
 
@@ -99,8 +99,8 @@ var config = {
 
     
     others: [
-        ["July 2021", "SICP Excellent Rune Artist (top 3 out of 40)", "This is an award that were given in the SICP program competition where my designed Rune picture by using Javascript was voted the third most."],
-        ["November 2019", "Second Prize (top 10 out of 200) in the English Speech Competition at Xi’an Jiaotong University Suzhou Academy", "This was awarded by my successful performance during the English speech competition when I attended the International Preparatory Program in Suzhou"],
+        ["August 2022", "2022 Dean's List Award at CUHKSZ", "Awarded for the outstanding academic performance in the past academic year."],
+        ["July 2021", "SICP Excellent Rune Artist (top 3 out of 40)", "Awarded for the SICP program competition where my designed Rune picture by using Javascript was voted the third most."],
         ["November 2018", "Outstanding Volunteer in 2018 Nanjing Marathon", "Awarded for the on-time and high-quality support for the marathon candidates."],
         ["July 2018", "Third Prize in the National Secondary School Student Innovative Writing Contest", "This is a Chinese Writing Award given in a writing competiton hosted by The writing Academy of China."]
     ],
