@@ -83,13 +83,13 @@ var config = {
     work: [
      
 
-        ["October 2021-present", "<br>Front-end Developer Intern (Parttime, Paid, 2hrs/week)",
+        ["October 2021-present", "<br>Front-end Developer Intern (Parttime, Paid, 10hrs/week)",
             "<p><strong>Shenzhen Renter Leasing Co., Ltd. (Student Startup at CUHK-Shenzhen)</strong></p>" +
             "<p>Co-develop the front-end of a mini program embedded in WeChat for Renter, support routine maintenance and iteration, maintain SQL database, optimize the database schema to decrease the loading time.</p>" +
             "<p>Collaborate with other members to maintain and update the program distantly by using Git. </p>"
         ],
 
-        ["2020/7/1 — 2021/8/10", "<br>Student Assistant of Official Website Operation (Parttime, Paid, 2hrs/week)",
+        ["2020/7/1 — 2021/8/10", "<br>Student Assistant of Official Website Operation (Parttime, Paid, 5hrs/week)",
             "<p><strong>Student Affairs Office at CUHK-Shenzhen</strong></p>" +
             "<p>Assist the maintenance of the official webpages of the Office, update contents, report bugs, and propose solutions.</p>" +
             "<p>Focus on the Human-Computer-Interaction(HCI) optimization of the website.</p>"  
